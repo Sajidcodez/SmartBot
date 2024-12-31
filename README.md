@@ -1,8 +1,32 @@
-# React + Vite
+# Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Disney SmartBot is an interactive chatbot application built with React and powered by the Google Gemini API. It provides users with real-time information about Walt Disney World, including park hours, ticketing, dining options, and more.
 
-Currently, two official plugins are available:
+# Features
+AI-Powered Responses - Utilizes the Google Gemini API for intelligent and dynamic conversations.
+REST API Integration - Fetches and displays up-to-date information about Walt Disney World.
+Responsive Design - Built with React and custom CSS for seamless user experience on both desktop and mobile devices.
+Google Gemini API
+Styling: CSS with Google Fonts
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Installation
+
+Clone the Repository
+
+git clone https://github.com/yourusername/disney-smartbot.git
+cd disney-smartbot
+
+Install Dependencies
+
+npm install
+
+Environment Variables
+Create a .env file in the root directory and add the following:
+
+VITE_API_URL=YOUR_API_URL
+
+Start the Application
+
+npm run dev
+
+The app will be available at http://localhost:5173.
