@@ -18,7 +18,7 @@ The Disney SmartBot is an interactive chatbot application built with React and p
 
 # Environment Variables
 Create a .env file in the root directory and add the following:
--VITE_API_URL=YOUR_API_URL
+# VITE_API_URL=YOUR_API_URL
 
 3. Start the Application
 - npm run dev
