@@ -25,5 +25,5 @@ VITE_API_URL=YOUR_API_URL
 - npm run dev
 - The app will be available at http://localhost:5173.
 
-# Or access the chatbot with the following link:
+# Here's the link to access the chatbot:
 - https://dsmartbot.netlify.app/
